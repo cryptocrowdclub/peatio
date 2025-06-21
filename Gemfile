@@ -27,7 +27,7 @@ gem 'angularjs-rails', '~> 1.3.15'
 gem 'bootstrap', '~> 4.1.3'
 gem 'font-awesome-sass', '~> 5.2.0'
 gem 'rbtree', '~> 0.4.2'
-gem 'grape', '~> 1.1.0'
+gem 'grape', '~> 2.4.0'
 gem 'grape-entity', '~> 0.7.1'
 gem 'grape-swagger', '~> 0.30.1'
 gem 'grape-swagger-ui', '~> 2.2.8'
@@ -78,7 +78,7 @@ group :test do
   gem 'webmock',             '~> 3.3'
   gem 'database_cleaner',    '~> 1.6'
   gem 'mocha',               '~> 1.4', require: false
-  gem 'factory_bot_rails',   '~> 4.8'
+  gem 'factory_bot_rails', '~> 6.5', '>= 6.5.0'
   gem 'timecop',             '~> 0.9'
   gem 'rubocop-rspec',       '~> 1.30', require: false
 end
